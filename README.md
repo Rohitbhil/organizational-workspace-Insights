@@ -1,24 +1,34 @@
 # Organizational Workspace Analytics
 
-Project by: Rohit Bhil & Sumit Daf
+**Project by:** Rohit Bhil & Sumit Daf  
+**Internship at:** XYZ.ai  
 
-Internship at : XYZ.ai  
+**Description:**  
+An interactive Streamlit dashboard for analyzing organizational and workspace data using PostgreSQL.
+
+---
 
 ## Project Overview
 
-The **Organizational Workspace Analytics** project is a data visualization dashboard built using Streamlit and PostgreSQL, designed to provide insights into organizational data. The project focuses on handling a complex database schema and enabling interactive data exploration through dynamic dashboards.  
+The **Organizational Workspace Analytics** project is a data visualization dashboard built using **Streamlit** and **PostgreSQL**, designed to provide insights into organizational data. The project focuses on handling a complex database schema and enabling interactive data exploration through dynamic dashboards.  
 
-During this internship at XYZ.ai, we were provided with a PostgreSQL database schema containing 69 tables. Our task was to populate the database with realistic dummy data and create an interactive Streamlit dashboard to answer predefined analytical questions.
+During this internship at XYZ.ai, we were provided a **PostgreSQL database schema containing 69 tables**. Our task was to populate the database with realistic dummy data and create an interactive Streamlit dashboard to answer predefined analytical questions.
+
+---
+
+## Database Schema
+
+The PostgreSQL database consists of **69 tables** covering **organizations, workspaces, users**, and related entities. This schema provides a structured foundation for managing data and enables interactive analytics and visualization.
 
 ---
 
 ## Key Features
 
 ### Database Population
-- Inserted realistic dummy data into all 69 PostgreSQL tables using pgAdmin4.
+- Inserted realistic dummy data into all 69 PostgreSQL tables using **pgAdmin4**.
 
 ### Database Connection
-- Connected the PostgreSQL database to Python using SQLAlchemy (`create_engine`).
+- Connected the PostgreSQL database to Python using **SQLAlchemy** (`create_engine`).
 
 ### Interactive Dashboard
 - **Organization Dropdown** – Select one organization.  
@@ -35,5 +45,19 @@ During this internship at XYZ.ai, we were provided with a PostgreSQL database sc
 
 - **Backend / Database:** PostgreSQL, SQLAlchemy, pgAdmin4  
 - **Frontend / Dashboard:** Python, Streamlit  
-- **Data Handling:** Pandas
-- **Visualization:** Plotly
+- **Data Handling:** Pandas, NumPy  
+- **Visualization:** Plotly, Matplotlib, Seaborn  
+
+---
+
+## Project Structure
+
+organizational-workspace-analytics/
+
+│── app.py # Main Streamlit application   
+│── requirements.txt # Python dependencies  
+│── data/ # Optional: sample CSVs or data files  
+│── images/ # Dashboard screenshots  
+└── README.md # Project description 
+
+
