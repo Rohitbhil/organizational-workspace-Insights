@@ -60,11 +60,11 @@ The PostgreSQL database consists of **69 tables** covering **organizations, work
 
 organizational-workspace-analytics/
 
-│── app.py # Main Streamlit application   
-│── requirements.txt # Python dependencies  
-│── data/ # Optional: sample CSVs or data files  
-│── images/ # Dashboard screenshots  
-└── README.md # Project description 
+│── app.py                 (Main Streamlit application)  
+│── requirements.txt      (Python dependencies)  
+│── schema.sql            (Database Schema)                
+│── media                 (Dashboard screenshots, videos)      
+└── README.md             (Project description) 
 
 
 ---
