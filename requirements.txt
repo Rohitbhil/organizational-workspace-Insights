@@ -1,0 +1,6 @@
+streamlit==1.26.0
+pandas==2.1.1
+plotly==5.18.0
+SQLAlchemy==2.0.20
+psycopg2-binary==2.9.7
+pyngrok==5.2.1
