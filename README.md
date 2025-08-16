@@ -4,6 +4,7 @@
 **Internship at:** StatStream.ai
 
 **Description:**  
+
 An interactive Streamlit dashboard for analyzing organizational and workspace data using PostgreSQL.
 
 ---
