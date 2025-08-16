@@ -1,7 +1,7 @@
 # Organizational Workspace Analytics
 
 **Project by:** Rohit Bhil & Sumit Daf  
-**Internship at:** XYZ.ai  
+**Internship at:** StatStream.ai
 
 **Description:**  
 An interactive Streamlit dashboard for analyzing organizational and workspace data using PostgreSQL.
@@ -66,32 +66,25 @@ organizational-workspace-analytics/
 ## How to Run
 
 1. **Clone the repository:**
-
-git clone https://github.com/Rohitbhil/organizational-workspace-analytics.git
-
-cd organizational-workspace-analytics
+   - git clone https://github.com/Rohitbhil/organizational-workspace-analytics.git
+   - cd organizational-workspace-analytics
 
 
 2. ** Install dependencies:**
-All required Python packages are listed in requirements.txt. Run the following command:
-
-pip install -r requirements.txt
+   - All required Python packages are listed in requirements.txt. Run the following command:
+   - pip install -r requirements.txt
 
 
 3. **Setup PostgreSQL database:**
-Create the database using pgAdmin4.
-
-Insert dummy data into all 69 tables.
+   - Create the database using pgAdmin4.
+   - insert dummy data into all 69 tables.
 
 4. **Update database connection in app.py:**
-
-from sqlalchemy import create_engine
-
-engine = create_engine('postgresql://username:password@localhost:5432/your_database')
+   - from sqlalchemy import create_engine
+   - engine = create_engine('postgresql://username:password@localhost:5432/your_database')
 
 
-5. **Run the Streamlit app:**
-
-streamlit run app.py
+6. **Run the Streamlit app:**
+   - streamlit run app.py
 
 
