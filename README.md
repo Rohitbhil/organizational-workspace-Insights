@@ -12,10 +12,14 @@ An interactive Streamlit dashboard for analyzing organizational and workspace da
 
 The **Organizational Workspace Analytics** project is a data visualization dashboard built using **Streamlit** and **PostgreSQL**, designed to provide insights into organizational data. The project focuses on handling a complex database schema and enabling interactive data exploration through dynamic dashboards.  
 
-During this internship at XYZ.ai, we were provided a **PostgreSQL database schema containing 69 tables**. Our task was to populate the database with realistic dummy data and create an interactive Streamlit dashboard to answer predefined analytical questions.
+During this internship at StatStream.ai, we were provided a **PostgreSQL database schema containing 69 tables**. Our task was to populate the database with realistic dummy data and create an interactive Streamlit dashboard to answer predefined analytical questions.
 
 ---
+## Project Insights
 
+This project provides an interactive Streamlit dashboard to explore and analyze complex organizational and workspace data. By connecting a PostgreSQL database with 69 tables, it enables dynamic filtering, interactive visualizations, and key metrics to gain actionable insights into organizational performance and workspace activity.
+
+---
 ## Database Schema
 
 The PostgreSQL database consists of **69 tables** covering **organizations, workspaces, users**, and related entities. This schema provides a structured foundation for managing data and enables interactive analytics and visualization.
