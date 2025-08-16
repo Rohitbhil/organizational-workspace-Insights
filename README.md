@@ -61,3 +61,37 @@ organizational-workspace-analytics/
 └── README.md # Project description 
 
 
+---
+
+## How to Run
+
+1. **Clone the repository:**
+
+'''bash
+git clone https://github.com/Rohitbhil/organizational-workspace-analytics.git
+cd organizational-workspace-analytics
+
+
+2. ** Install dependencies:**
+All required Python packages are listed in requirements.txt. Run the following command:
+
+pip install -r requirements.txt
+
+
+3. **Setup PostgreSQL database:**
+Create the database using pgAdmin4.
+
+Insert dummy data into all 69 tables.
+
+4. **Update database connection in app.py:**
+
+from sqlalchemy import create_engine
+
+engine = create_engine('postgresql://username:password@localhost:5432/your_database')
+
+
+5. **Run the Streamlit app:**
+
+streamlit run app.py
+
+
