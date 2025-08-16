@@ -67,7 +67,6 @@ organizational-workspace-analytics/
 
 1. **Clone the repository:**
 
-'''bash
 git clone https://github.com/Rohitbhil/organizational-workspace-analytics.git
 cd organizational-workspace-analytics
 
