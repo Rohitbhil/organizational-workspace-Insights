@@ -51,7 +51,8 @@ The PostgreSQL database consists of **69 tables** covering **organizations, work
 - **Backend / Database:** PostgreSQL, SQLAlchemy, pgAdmin4  
 - **Frontend / Dashboard:** Python, Streamlit  
 - **Data Handling:** Pandas, NumPy  
-- **Visualization:** Plotly, Matplotlib, Seaborn  
+- **Visualization:** Plotly, Matplotlib, Seaborn
+- **Development Environment:** VS Code, Python 3.13.2
 
 ---
 
